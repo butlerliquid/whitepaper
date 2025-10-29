@@ -98,20 +98,10 @@ In short, ButlerLiquid makes trading faster, smarter, and more connected for bot
 
 # ButlerLiquid Technology Overview
 
-```mermaid
-graph TD
-    A[User Wallets] --> B[Privy Wallet Security]
-    B --> C[Relay System]
-    C --> D[HyperLiquid Builder Codes]
-    D --> E[HyperLiquid]
+<p>
+  <img src="https://github.com/butlerliquid/whitepaper/blob/main/mermaid-1.png?raw=true" height="600" width="600"/>
+</p>
 
-    F[Butler Agent / ACP] --> D
-    F --> A
-
-    G[Virtuals Butler Client] --> F
-    H[BL Token & NFT System] --> A
-    H --> F
-```
 
 This diagram illustrates the core architecture and components of the ButlerLiquid platform, showing how user wallets, Butler ACP, HyperLiquid, the relay system, and the token and NFT mechanisms interact.
 
@@ -171,29 +161,10 @@ This stack ensures the ButlerLiquid platform is secure, scalable, and fast, from
 
 The ButlerLiquid Ecosystem integrates Virtual Protocol users, HyperLiquid liquidity, autonomous agents, and $BL token holders into a seamless trading and reward sharing environment.
 
-```mermaid
-flowchart LR
-    A[💼 Platform Revenue] --> B[📦 Reward Pool]
+<p>
+  <img src="https://github.com/butlerliquid/whitepaper/blob/main/mermaid-2.png?raw=true" width="600"/>
+</p>
 
-    B --> C[🪙 $BL Holders]
-    B --> D[🎴 NFT Owners]
-    B --> E[⭐ Early Users]
-    B --> F[🤖 ACP Users]
-
-    C --> G[📊 Transparent On-Chain]
-    D --> G
-    E --> G
-    F --> G
-
-    G --> H[🎉 Community Growth]
-    G --> I[🔄 Ecosystem Development]
-
-    style A fill:#5EEAD4,color:#000
-    style C fill:#2DD4BF,color:#000
-    style D fill:#5EEAD4,color:#000
-    style E fill:#2DD4BF,color:#000
-    style F fill:#5EEAD4,color:#000
-```
 
 ## Key Components
 
@@ -203,17 +174,11 @@ flowchart LR
 - Virtuals Butler Client: Offers a user friendly interface to manage trades, monitor positions, and interact with agents.
 - $BL Token and NFT System: Drives incentives, special benefits, and reward sharing for platform participants.
 
-```mermaid
-sequenceDiagram
-    participant User/Butler
-    participant ACP/BL
-    participant HyperLiquid
 
-    User/Butler->>ACP/BL: Trade Command
-    ACP/BL->>HyperLiquid: Execute Trade
-    HyperLiquid-->>ACP/BL: Confirmation
-    ACP/BL-->>User/Butler: Position + Rewards
-```
+<p>
+  <img src="https://github.com/butlerliquid/whitepaper/blob/main/mermaid-3.png?raw=true" width="600"/>
+</p>
+
 
 ## Use Cases
 
